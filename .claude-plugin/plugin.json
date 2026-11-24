@@ -3,8 +3,8 @@
   "version": "0.2.0",
   "description": "A slow dark night sky for the Claude desktop app, with a moon-phase meter band for context and rate limits.",
   "author": { "name": "celalk-172" },
-  "homepage": "https://github.com/celalk-172/night-sky",
-  "repository": "https://github.com/celalk-172/night-sky",
+  "homepage": "https://github.com/celalk-172/claude-night-sky",
+  "repository": "https://github.com/celalk-172/claude-night-sky",
   "license": "MIT",
   "keywords": ["theme", "night-sky", "usage", "rate-limits", "context", "status"],
   "types": "./types/index.d.ts"

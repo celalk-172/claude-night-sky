@@ -45,7 +45,7 @@ You need the Claude desktop app, or Claude Code in a terminal. Pick one.
 
 1. Click **+** next to the message box.
 2. Choose **Plugins**, then **Add marketplace**.
-3. Type `celalk-172/night-sky` and confirm.
+3. Type `celalk-172/claude-night-sky` and confirm.
 4. Choose **Add plugin** and pick **night-sky**.
 5. Start a new session, or reload plugins, to see it.
 
@@ -54,13 +54,13 @@ You need the Claude desktop app, or Claude Code in a terminal. Pick one.
 Run this at the prompt of a Claude Code session:
 
 ```
-/plugin install night-sky --marketplace celalk-172/night-sky
+/plugin install night-sky --marketplace celalk-172/claude-night-sky
 ```
 
 Or from your shell:
 
 ```bash
-claude plugin install night-sky --marketplace celalk-172/night-sky
+claude plugin install night-sky --marketplace celalk-172/claude-night-sky
 ```
 
 Say `y` if it asks to add the marketplace, then pick a scope. Start a new session, or reload plugins, to see it.
