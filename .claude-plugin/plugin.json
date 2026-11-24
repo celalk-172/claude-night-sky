@@ -1,6 +1,6 @@
 {
   "name": "night-sky",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "A slow dark night sky for the Claude desktop app, with a moon-phase meter band for context and rate limits.",
   "author": { "name": "celalk-172" },
   "homepage": "https://github.com/celalk-172/claude-night-sky",

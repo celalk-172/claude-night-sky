@@ -5,7 +5,7 @@
 **A slow, dark night sky for the Claude desktop app, with a moon-phase meter for your context and rate limits.**
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![Version](https://img.shields.io/badge/version-0.2.0-8aa4e8)
+![Version](https://img.shields.io/badge/version-1.0.0-8aa4e8)
 ![Works in](https://img.shields.io/badge/works%20in-desktop%20app%20%7C%20terminal-6f9bf0)
 
 <img src="docs/hero.png" alt="A dark starry sky with a crescent moon, two planes, two rockets and shooting stars, with the moon-phase meter band above the message box" width="860">
@@ -98,6 +98,10 @@ To try your edits, clone this repository and start Claude Code with `claude --pl
 - **No rate-limit meters.** Only accounts that report rate-limit windows get them. Context always shows once Claude has replied.
 - **Two bands show.** Another mod or plugin that draws its own limit band can sit beside this one. Remove the one you don't want.
 - **Nothing at all in the terminal.** Start a new Claude Code session after installing. Plugins load at session start.
+
+## Versions
+
+Releases are tagged `vMAJOR.MINOR.PATCH`, for example `v1.0.0`, and listed on the [Releases page](https://github.com/celalk-172/claude-night-sky/releases). The version in `.claude-plugin/plugin.json` matches the latest tag. Tags can't be moved or deleted once created, and only tags in that format are accepted. See [CHANGELOG.md](CHANGELOG.md) for what changed.
 
 ## Contributing and forks
 
