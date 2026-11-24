@@ -1,0 +1,28 @@
+name: Check release tag
+
+on:
+  push:
+    tags: ['**']
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tag is vX.Y.Z and matches plugin.json
+        env:
+          TAG: ${{ github.ref_name }}
+        run: |
+          if ! [[ "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+(-[0-9A-Za-z.-]+)?$ ]]; then
+            echo "::error::Tag '$TAG' must look like vMAJOR.MINOR.PATCH, for example v1.0.0"
+            exit 1
+          fi
+          VERSION=$(jq -r .version .claude-plugin/plugin.json)
+          if [ "v$VERSION" != "$TAG" ]; then
+            echo "::error::Tag '$TAG' does not match version '$VERSION' in .claude-plugin/plugin.json"
+            exit 1
+          fi
+          echo "Tag $TAG matches plugin.json version $VERSION"
