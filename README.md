@@ -99,6 +99,14 @@ To try your edits, clone this repository and start Claude Code with `claude --pl
 - **Two bands show.** Another mod or plugin that draws its own limit band can sit beside this one. Remove the one you don't want.
 - **Nothing at all in the terminal.** Start a new Claude Code session after installing. Plugins load at session start.
 
+## Contributing and forks
+
+You are free to use, copy, fork and change night-sky: it is MIT licensed.
+
+- **Fork it** to make your own version. Your fork is yours, and nothing here limits it.
+- **Suggest a change** by forking, making a branch, and opening a pull request.
+- The `main` and `dev` branches of this repository are protected. Nobody can push to them directly, including the owner: changes go in through a pull request, and force pushes and deletions are blocked.
+
 ## Repository layout
 
 ```
