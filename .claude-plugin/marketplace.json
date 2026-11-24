@@ -1,0 +1,12 @@
+{
+  "name": "night-sky",
+  "description": "night-sky: a slow dark night sky and a moon-phase meter for Claude's context and rate limits.",
+  "owner": { "name": "celalk-172" },
+  "plugins": [
+    {
+      "name": "night-sky",
+      "source": "./",
+      "description": "A slow dark night sky for the Claude desktop app, with a moon-phase meter band for context and rate limits."
+    }
+  ]
+}
