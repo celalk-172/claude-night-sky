@@ -101,7 +101,7 @@ To try your edits, clone this repository and start Claude Code with `claude --pl
 
 ## Versions
 
-Releases are tagged `vMAJOR.MINOR.PATCH`, for example `v1.0.0`, and listed on the [Releases page](https://github.com/celalk-172/claude-night-sky/releases). The version in `.claude-plugin/plugin.json` matches the latest tag. Once created, a tag can't be moved or deleted. See [CHANGELOG.md](CHANGELOG.md) for what changed.
+Releases are tagged `vMAJOR.MINOR.PATCH`, for example `v1.0.0`, and listed on the [Releases page](https://github.com/celalk-172/claude-night-sky/releases). The version in `.claude-plugin/plugin.json` matches the latest tag. Once created, a tag can't be moved or deleted. A check runs on every pushed tag and fails if the tag isn't in that format or doesn't match the version in `plugin.json`. See [CHANGELOG.md](CHANGELOG.md) for what changed.
 
 ## Contributing and forks
 
